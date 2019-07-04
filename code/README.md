@@ -47,3 +47,7 @@ Pyro function. Define the generative process of PLSM and the artificial distribu
 - cal_median_KL
 
 Calculate the KL divergence between the inferred motifs and real motifs. **One thing should be noticed:** Inferred motifs should be similar with the real motifs but with the random order. When doing the comparison of inferred motifs and real motifs, you should make sure you are comparing the right motifs.
+
+- Draw-KL
+
+The pics in the report are drawn using R. This function is a test.
