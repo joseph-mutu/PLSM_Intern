@@ -28,7 +28,7 @@ Java version: 1.8.0_191
 
 ### The combination of ISM and PLSM
 
-The detailed combination method can be checked [here]([https://github.com/joseph-mutu/PLSM_Intern/blob/master/PLSM%20and%20ISM.pdf]).
+The detailed combination method can be checked [here](https://github.com/joseph-mutu/PLSM_Intern/blob/master/PLSM%20and%20ISM.pdf).
 
 - Using ISM to find important positions of the temporal data.
 - Using the nature of the conjugation of Dirichlet-Multinomial to update the non-informative distribution of motifs.
