@@ -28,17 +28,17 @@ Java version: 1.8.0_191
 
 ### The combination of ISM and PLSM
 
-The detailed combination method can be checked [here]([https://github.com/joseph-mutu/PLSM_Intern/blob/master/PLSM%20and%20ISM.pdf](https://github.com/joseph-mutu/PLSM_Intern/blob/master/PLSM and ISM.pdf)).
+The detailed combination method can be checked [here]([https://github.com/joseph-mutu/PLSM_Intern/blob/master/PLSM%20and%20ISM.pdf]).
 
 - Using ISM to find important positions of the temporal data.
-- Using the nature of the conjugation of Dirichlet-Multinomial to update the non-informative distribution of motif.
-- Feed the initialized motif into the inference algorithm of PLSM
+- Using the nature of the conjugation of Dirichlet-Multinomial to update the non-informative distribution of motifs.
+- Feed the initialized motifs into the inference algorithm of PLSM.
 
 
 
 ### Experiment Strategy
 
-For the experiment, we want to demonstrate that the combined method can converge faster than using Non-informative prior distribution for motifs. So we will combine both.
+For the experiment, we want to demonstrate that the combined method can converge faster than using Non-informative prior distribution.
 
 **Note:**
 
@@ -49,4 +49,4 @@ During the experiments, we call the gradient descent to do the optimization with
 ### Drawback
 
 - The combination set is too large to enumerate. (exponential increase)
-- ISM can not handle too large sequences
+- ISM can not handle too large sequences.
